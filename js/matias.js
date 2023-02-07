@@ -8,21 +8,21 @@ const TabldeUsuarios = document.getElementById('TabldeUsuarios');
 const users = [
     {   
         aprobar :'',
-        name : 'Matiasdsas',
-        surname : 'Hernan',
+        name : 'Matias',
+        surname : 'Quagliotti',
         years: 28,
         password: 'contraTest',
-        correo :"matias@gmail.com",
+        correo :"quagliottimatias@gmail.com",
         id : 111,
     },
     {
         aprobar :'',
-        name : 'Pabdaslo',
-    surname : 'Nicolas',
-    years: 20,
-    password: 'contraTest',
-    correo :"Pablo@gmail.com",
-    id : 222,
+        name : 'Pablo',
+        surname : 'Romero',
+        years: 20,
+        password: 'contraTest',
+        correo :"pabloromero@gmail.com",
+        id : 222,
 
 
 
@@ -31,7 +31,7 @@ const users = [
         aprobar :'',
 
         name : 'Christian',
-        surname : 'Romero',
+        surname : 'Juares',
         years: 20,
         password: 'contraTest',
         correo :"christian@gmail.com",
@@ -112,7 +112,7 @@ let aceptarUsuario = (id) => {
     };
 
     // usuarios.push(usuario);
-    localStorage.setItem('usuario', JSON.stringify(usuarios));
+    localStorage.setItem('users', JSON.stringify(usuarios));
     mostrarUsuarios(usuarios);
 }
 
