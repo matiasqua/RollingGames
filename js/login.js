@@ -6,10 +6,18 @@ $(document).ready(function(){
 
     // almaceno los valores en localstorage
     localStorage.setItem('usuario', txt_user);
-    localStorage.setItem('contraseña', txt_password);
-    console.log(localStorage)
+    localStorage.setItem('password', txt_password);
+    // console.log(localStorage)
 
     });
+    
+    // var txt_user = localStorage.getItem('usuario');
+    // var txt_password = localStorage.getItem('password');
 
+    // if(txt_user != null && txt_user != 'undefined'){
+    //     //llamada al documento index.html
+    //     window.location = 'sesion.html';
+    // }
 });
+
 
